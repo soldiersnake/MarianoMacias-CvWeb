@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mariano Macias - Contacto</title>
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&family=Roboto:wght@500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <header>
+    <h1 class="nombre-sitio">Mariano <span>Macias</span></h1>
+  </header>
+
+  <div class="contenedor-navegacion">
+    <nav class="nav-principal contenedor">
+      <a href="index.html">Presentacion</a>
+      <a href="nosotros.html">Sobre mi</a>
+      <a href="tienda.html">Experiencia profesional</a>
+      <a href="blog.html">Blog</a>
+      <a href="galeria.html">Certificados</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </div>
+
+
+
+  <main class="contenido-principal contenedor">
+    <h2 class="text-center">Contacto</h2>
+
+    <form class="formulario">
+      <fieldset>
+        <legend>Tus Datos</legend>
+        <div class="campo">
+          <label for="nombre">Nombre: </label>
+          <input id="nombre" type="text" placeholder="Coloca tu nombre" required>
+        </div>
+        <div class="campo">
+          <label for="asunto">Asunto: </label>
+          <input id="asunto" type="text" placeholder="Tu Asunto">
+        </div>
+        <div class="campo">
+          <label for="email">Email: </label>
+          <input id="email" type="email" placeholder="Tu Email">
+        </div>
+        <div class="campo">
+          <label for="tel">Telefono: </label>
+          <input id="tel" type="tel" placeholder="Tu Telefono">
+        </div>
+        <div class="campo">
+          <label for="tel">Telefono: </label>
+          <input id="tel" type="tel" placeholder="Tu Telefono">
+        </div>
+        <div class="campo">
+          <label for="mensaje">Mensaje: </label>
+          <textarea name="mensaje" id="mensaje" rows="5" placeholder="Deja tu mensaje"></textarea>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Pais</legend>
+        <div class="campo">
+          <label for="pais">Pais</label>
+          <select name="pais" id="pais">
+            <option value="">--Seleccione--</option>
+            <option selected value="Argentina">Argentina</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Peru ">Peru</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Chile">Chile</option>
+          </select>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Informacion Extra</legend>
+        <div class="campo">
+          <label for="cliente">Cliente</label>
+          <input type="radio" id="cliente" name="tipo">
+        </div>
+        <div class="campo">
+          <label for="proveedor">Proveedor</label>
+          <input type="radio" id="proveedor" name="tipo">
+        </div>
+        <div class="campo">
+          <label for="categoria">Categoria de Interes</label>
+          <input list="categorias" name="categorias">
+          <datalist id="categorias">
+            <option value="Cocina">
+            <option value="Exterior">
+            <option value="Recamaras">
+            <option value="Oficinas">
+            <option value="television">
+            <option value="Living">
+          </datalist>
+        </div>
+      </fieldset>
+      <input class="btn" type="submit" value="Enviar Formulario">
+    </form>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="grid-footer contenedor">
+      <div>
+        <h3>Hobbies</h3>
+        <nav class="footer-menu">
+          <a href="#">Programar</a>
+          <a href="#">Mirar series y peliculas</a>
+          <a href="#">Escuchar Musica Variada</a>
+          <a href="#">Reunion y salida con amigos</a>
+          <a href="#">Seguir creciendo y desarrollandome</a>
+        </nav>
+      </div>
+      <div>
+        <h3>Redes de contacto</h3>
+        <nav class="footer-menu">
+          <a href="https://www.instagram.com/marianogandulfo/" target="_blank">Instagram</a>
+          <a href="https://github.com/soldiersnake" target="_blank">GitHub</a>
+          <a href="https://twitter.com/MarianoGandulfo" target="_blank">Twitter</a>
+          <a href="https://www.linkedin.com/in/marianomacias/" target="_blank">Linkedin</a>
+        </nav>
+      </div>
+      <!-- <div>
+        <h3>Soporte</h3>
+        <nav class="footer-menu">
+          <a href="#">Preguntas Frecuentes</a>
+          <a href="#">Ayuda en Linea</a>
+          <a href="#">Confianza y Seguridad</a>
+        </nav>
+      </div> -->
+    </div>
+    <p class="copyright">Todos los derechos Reservados, Mariano Macias</p>
+  </footer>
+</body>
+
+</html>
