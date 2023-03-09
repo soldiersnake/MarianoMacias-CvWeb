@@ -62,7 +62,7 @@ img{
 .nombre-sitio{
     margin-top: 5rem;
     text-align: center;
-    font-size: 4rem;
+    font-size: 8rem;
 }
 .nombre-sitio span{
     color: #037bc0;
@@ -78,12 +78,11 @@ img{
 }
 /** box model **/
 .hero{
-    background-image: url(../img/bannerJs.jpg);
+    background-image: url(../img/carrera-programador-web-full-stack.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     height: 55rem;
-
 }
 /**categorias**/
 .categorias{
@@ -112,7 +111,7 @@ img{
 /** BLOQUE NOSOTROS **/
 .sobre-nosotros{
     margin-top: 5rem;
-    background-image: linear-gradient( to right, transparent 50%, #037bc0 50%, #037bc0 100%), url(../img/FotoCV.png);
+    background-image: linear-gradient( to right, transparent 50%, #037bc0 50%, #037bc0 100%), url(../img/SobreMi.png);
     padding: 10rem 0;
     background-position: left center;
     background-repeat: no-repeat;
@@ -251,7 +250,7 @@ img{
 /** BLOG **/
 .contenedor-blog{
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
     column-gap: 4rem;
 }
 .entrada{
