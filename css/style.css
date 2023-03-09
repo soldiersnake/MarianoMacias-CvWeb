@@ -74,7 +74,14 @@ img{
     padding: 2rem 0;
     display: flex;
     justify-content: space-between;
-    
+}
+.nav-principal a:hover{
+    background-color: #037bc0;
+    border-radius: 3%;
+    color: white;
+    width: 20%;
+    height: 10%;
+    text-align: center;
 }
 /** box model **/
 .hero{
@@ -219,14 +226,22 @@ img{
 .site-footer h3{
     margin-bottom: .5rem;
 }
+
 /* CON DISPLAY GRID */
 .grid-footer{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
 }
+.grid-footer div h3:hover{
+    font-size: 4rem;
+}
 .footer-menu a{
     display: block;
+}
+.footer-menu a:hover{
+    color: blue;
+    font-size: 2rem;
 }
 .copyright{
     text-align: center;
@@ -289,6 +304,12 @@ img{
     height: 40rem;
     width: 40rem;
     object-fit: cover;
+}
+.galeria img:hover{
+    /* height: 50rem; */
+    /* width: 50rem; */
+    object-fit: contain;
+    box-shadow: 3px 3px black, -1em 0 0.4em #037bc0;
 }
 
 /* FORMULARIO */
